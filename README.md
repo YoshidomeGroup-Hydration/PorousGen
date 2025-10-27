@@ -16,7 +16,7 @@ If you use "PorousGen", please cite:
 > http://arxiv.org/abs/2510.17133
 
 # Contact
-If you have any questions, please contact Shota Arai at
+If you have any questions, please contact Shota Arai at<br>
 shota.arai.c2@tohoku.ac.jp
 
 # Usage
