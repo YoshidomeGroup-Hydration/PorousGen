@@ -12,7 +12,8 @@ Manual will be prepared.
 If you use "PorousGen", please cite:
 ```
 PorousGen: An efficient algorithm for generating porous structures with accurate porosity and uniform density distribution,
-Shota Arai and Takashi Yoshidome, arXiv: 2510.17133 (2025). http://arxiv.org/abs/2510.17133
+Shota Arai and Takashi Yoshidome,
+arXiv: 2510.17133 (2025). http://arxiv.org/abs/2510.17133
 ```
 
 # Contact
