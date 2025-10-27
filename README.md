@@ -7,7 +7,7 @@ Manual will be prepared.
 
 
 # Licence
-“PorousGen”is available under the MIT License.
+“PorousGen” is available under the MIT License.
 
 # Citing this work
 If you use "PorousGen", please cite:
