@@ -9,6 +9,10 @@ Manual will be prepared.
 # Licence
 
 # Citing this work
+If you use "PorousGen", please cite:
+> *PorousGen: An efficient algorithm for generating porous structures with accurate porosity and uniform density distribution.*  
+> arXiv: 2510.17133 (2025).
+> http://arxiv.org/abs/2510.17133
 
 # Contack
 
