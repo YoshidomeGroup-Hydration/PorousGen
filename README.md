@@ -37,5 +37,5 @@ N          = 5      # The box is divided into N^3 subdomains for parallel comput
 eta_err    = 1      # η_Err [%]
 ```
 
-Generates a 3D porous structure with 100^3 voxels of size 20 nm.
+A 3D porous structure with 100^3 voxels of size 20 nm is generated.
 TIFF images of the structure will be output.
