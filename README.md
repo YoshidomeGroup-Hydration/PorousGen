@@ -4,7 +4,7 @@ Manual will be prepared.
 
 
 # Requirement
-
+Python Python 3.12.3~, numpy, multiprocessing, scipy, os, tifffile, skimage  
 
 # Licence
 “PorousGen” is available under the MIT License.
