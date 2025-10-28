@@ -19,4 +19,23 @@ If you have any questions, please contact Shota Arai at<br>
 shota.arai.c2@tohoku.ac.jp
 
 # Usage
-Manual will be prepared.
+
+## Test Parameters
+
+The following parameters are used for test execution:
+
+```text
+# --- Parameter Settings ---
+VN_ori     = 200    # N_Box
+VL_ori     = 10     # L_Box [nm]
+ran        = 1      # seed
+mean       = 140    # D_Mean [nm]
+stan       = 1      # D_SD [nm]
+eta_target = 40     # η_Box [%]
+delta_VN   = 50     # l = VL_ori * delta_VN [μm]
+N          = 5      # The box is divided into N^3 subdomains for parallel computation
+eta_err    = 1      # η_Err [%]
+
+# Result:
+# Generates a 3D porous structure with 100^3 voxels of size 20 nm.
+# A TIFF image of the structure will be output.
