@@ -38,4 +38,4 @@ eta_err    = 1      # η_Err [%]
 ```
 
 Generates a 3D porous structure with 100^3 voxels of size 20 nm.
-A TIFF image of the structure will be output.
+TIFF images of the structure will be output.
