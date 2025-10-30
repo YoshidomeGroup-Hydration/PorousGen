@@ -2,7 +2,7 @@
 “PorousGen” allows for the efficient generation of large-scale porous structures through parallel computation. It can also accurately create structures according to a defined target porosity.
 
 # Requirement
-Python 3.12.3~, numpy, multiprocessing, scipy, os, tifffile, skimage  
+Python 3.12.3~, numpy scipy tifffile skimage  
 
 # Licence
 “PorousGen” is available under the MIT License.
