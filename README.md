@@ -1,6 +1,7 @@
 # [PorousGen] GitHub Repository
 “PorousGen” allows for the efficient generation of large-scale porous structures through parallel computation. 
 It can also accurately create structures according to a defined target porosity.
+
 This repository contains all data and code used in the manuscript, as well as the implementation of the proposed algorithm.  
 The folder structure is organized according to the sections of the manuscript.
 
