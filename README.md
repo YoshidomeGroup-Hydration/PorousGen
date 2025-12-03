@@ -36,7 +36,8 @@ pip install -r requirements.txt
 
 | Section | code_folder | results | Figure/Table |
 |---------|-------------|-------------|--------------|
-| 2.2 Generation Algorithm | `algorithm_exsample/section2_2/` | `results/section2_2/` | N/A |
+| 2.1 Algorithm for generating a porous structure | `algorithm/` | `result/` | N/A |
+| 2.2 Generation of porous structures using the present algorithm | `algorithm_exsample/section2_2/` | `results/section2_2/` | N/A |
 | 3.1.1 Dependence on parameter l | `algorithm_exsample/section3_1_1/` | `results/section3_1_1/` | Figure 2 |
 | 3.1.2 Dependence on parameter dL | `algorithm_exsample/section3_1_2/` | `results/section3_1_2/` | Figure 3 |
 | 3.1.3 Dependence on parameter ϕ_Particle | `algorithm_exsample/section3_1_3/` | `results/section3_1_3/` | Figure 4 |
