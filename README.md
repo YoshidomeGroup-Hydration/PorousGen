@@ -74,7 +74,7 @@ eta_err = 1         # \eta_Err [%]
 Example:
 ```bash
 cd algorithm
-python code.py
+python main_algorithm.py
 
 
 
