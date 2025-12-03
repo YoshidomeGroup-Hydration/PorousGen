@@ -52,6 +52,31 @@ shota.arai.c2@tohoku.ac.jp
 
 
 ## Usage
+### Using PorousGen
+1. Navigate to the corresponding code folder for the figure or table you want to reproduce.
+2. Run the Python script.
+## Test Parameters
+
+The following parameters are used for test execution:
+
+```text
+# --- Parameter Settings ---
+VN_ori = 200        # N_Box
+VL_ori = 10         # L_Box [nm]
+ran = 1             # seed
+mean = 140          # D_Mean [nm]
+stan = 1            # D_SD [nm]
+eta_target = 40     # \eta_Box [%]
+delta_VN = 50       # l = VL_ori * delta_VN [\mu m]
+N = 5               # The box is divided into N^3 subdomains for parallel computation.
+eta_err = 1         # \eta_Err [%]
+
+Example:
+```bash
+cd algorithm
+python code.py
+
+
 
 ### Reproducing Figures and Tables
 1. Navigate to the corresponding code folder for the figure or table you want to reproduce.
