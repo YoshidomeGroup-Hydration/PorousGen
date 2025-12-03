@@ -22,10 +22,10 @@ pip install -r requirements.txt
 
 - `LICENSE` : MIT License
 - `requirements.txt`
-- `algorithm/` : Proposed algorithm in Section 2.1
+- `demo/` : Proposed algorithm in Section 2.1
   - `code_PorousGen.py` : PorousGen algorithm
   - `result/`  : Output
-- `algorithm_exsample/code_folder/` : Analysis scripts corresponding to each section of the manuscript
+- `repro/code_folder/` : Analysis scripts corresponding to each section of the manuscript
   - `run_codes.sh` :  Master script to execute the codes listed below
     - `code_PorousGen.py` : PorousGen algorithm
     - `code_PoreSpy.py` : PoreSpy-based generation and comparison
@@ -36,13 +36,13 @@ pip install -r requirements.txt
 
 | Section | code_folder | results | Figure/Table |
 |---------|-------------|-------------|--------------|
-| 2.1 Algorithm for generating a porous structure | `algorithm/` | `result/` | N/A |
-| 2.2 Generation of porous structures using the present algorithm | `algorithm_exsample/section2_2/` | `results/section2_2/` | N/A |
-| 3.1.1 Dependence on parameter l | `algorithm_exsample/section3_1_1/` | `results/section3_1_1/` | Figure 2 |
-| 3.1.2 Dependence on parameter dL | `algorithm_exsample/section3_1_2/` | `results/section3_1_2/` | Figure 3 |
-| 3.1.3 Dependence on parameter ϕ_Particle | `algorithm_exsample/section3_1_3/` | `results/section3_1_3/` | Figure 4 |
-| 3.2 Comparison with PoreSpy | `algorithm_exsample/section3_2/` | `results/section3_2/` | Figure 5 |
-| 3.3 Comparison with experimental data | `algorithm_exsample/section3_3/` | `results/section3_3/` | Table 2 |
+| 2.1 Algorithm for generating a porous structure | `demo/` | `result/` | N/A |
+| 2.2 Generation of porous structures using the present algorithm | `repro/section2_2/` | `results/section2_2/` | N/A |
+| 3.1.1 Dependence on parameter l | `repro/section3_1_1/` | `results/section3_1_1/` | Figure 2 |
+| 3.1.2 Dependence on parameter dL | `repro/section3_1_2/` | `results/section3_1_2/` | Figure 3 |
+| 3.1.3 Dependence on parameter ϕ_Particle | `repro/section3_1_3/` | `results/section3_1_3/` | Figure 4 |
+| 3.2 Comparison with PoreSpy | `repro/section3_2/` | `results/section3_2/` | Figure 5 |
+| 3.3 Comparison with experimental data | `repro/section3_3/` | `results/section3_3/` | Table 2 |
 
 ---
 
@@ -67,7 +67,7 @@ dL2 = mean + 2*stan # 2dL [nm]
 ```
 To run the algorithm:
 ```bash
-cd algorithm
+cd demo/
 python3 code_PorousGen.py
 ```
 
@@ -79,7 +79,7 @@ TIFF image files of the generated structure will be saved automatically in the r
 
 Reproduce Figure 2
 ```bash
-cd algorithm_exsample/section3_1_1/
+cd repro/section3_1_1/
 bash run_codes.sh
 ```
 Reproduce all results
