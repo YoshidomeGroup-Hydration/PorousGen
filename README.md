@@ -54,7 +54,6 @@ pip install -r requirements.txt
 The following parameters are used for test execution:
 
 ```text
-# --- Parameter Settings ---
 VN_ori = 200        # N_Box
 VL_ori = 10         # L_Box [nm]
 ran = 1             # seed
@@ -64,6 +63,8 @@ eta_target = 40     # \eta_Box [%]
 delta_VN = 50       # l = VL_ori * delta_VN [\mu m]
 N = 5               # The box is divided into N^3 subdomains for parallel computation.
 eta_err = 1         # \eta_Err [%]
+phi_particle = 50   # \phi_Particle [%]
+dL2 = mean + 2*stan # 2dL [nm]
 ```
 To run the algorithm:
 ```bash
