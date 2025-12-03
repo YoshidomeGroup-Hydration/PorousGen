@@ -29,11 +29,6 @@ It contains both the **core algorithm** proposed in Section 2.1 and the **reprod
 
 ---
 
-
-
-# Requirement
-Python 3.12.3~, numpy scipy tifffile scikit-image  
-
 ## Requirements
 
 - Python **3.12.3** or later
@@ -50,6 +45,35 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+
+## Folder Structure
+.
+├── LICENSE
+├── README.md
+├── requirements.txt
+│
+├── algorithm/                     # Proposed algorithm (main contribution)
+│   ├── main_algorithm.py
+│   ├── utils.py
+│   └── parameters.yaml
+│
+├── algorithm_example/             # Reproducibility scripts (per section)
+│   ├── section2_2/
+│   ├── section3_1_1/
+│   ├── section3_1_2/
+│   ├── section3_1_3/
+│   ├── section3_2/
+│   └── section3_3/
+│
+├── data_example/                  # Output (figures, tables, tiff)
+│   ├── section2_2/
+│   ├── section3_1_1/
+│   ├── section3_1_2/
+│   ├── section3_1_3/
+│   ├── section3_2/
+│   └── section3_3/
+│
+└── figures/                       # Final formatted figures and tables
 
 
 
