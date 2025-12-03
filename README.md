@@ -18,7 +18,6 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-
 ## Folder Structure
 
 - `LICENSE` : MIT License
