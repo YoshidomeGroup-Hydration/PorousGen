@@ -48,9 +48,6 @@ pip install -r requirements.txt
 
 
 ## Usage
-1. Navigate to the corresponding code folder for the figure or table you want to reproduce.
-2. Run the Python script.
-
 ### Using proposed algorithm in Section 2.1   
 
 The following parameters are used for test execution:
@@ -67,12 +64,14 @@ delta_VN = 50       # l = VL_ori * delta_VN [\mu m]
 N = 5               # The box is divided into N^3 subdomains for parallel computation.
 eta_err = 1         # \eta_Err [%]
 ```
-
+To run the algorithm:
 ```bash
 cd algorithm
 python3 code_PorousGen.py
 ```
 
+A 3D porous structure with 100^3 voxels of size 20 nm is generated.
+TIFF image files of the generated structure will be saved automatically in the result directory.
 
 
 
@@ -86,8 +85,7 @@ cd code/section3_1_1
 python param_l_analysis.py
 ```
 
-A 3D porous structure with 100^3 voxels of size 20 nm is generated.
-TIFF images of the structure will be output.
+
 
 
 
