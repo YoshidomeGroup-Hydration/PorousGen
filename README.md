@@ -52,12 +52,6 @@ pip install -r requirements.txt
 2. Run the Python script.
 
 ### Using proposed algorithm in Section 2.1   
-```bash
-cd algorithm
-python main_algorithm.py
-
-
-## Test Parameters
 
 The following parameters are used for test execution:
 
@@ -72,7 +66,12 @@ eta_target = 40     # \eta_Box [%]
 delta_VN = 50       # l = VL_ori * delta_VN [\mu m]
 N = 5               # The box is divided into N^3 subdomains for parallel computation.
 eta_err = 1         # \eta_Err [%]
+```
 
+```bash
+cd algorithm
+python3 code_PorousGen.py
+```
 
 
 
