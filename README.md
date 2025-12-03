@@ -48,6 +48,10 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+
+
 
 # Licence
 “PorousGen” is available under the MIT License.
