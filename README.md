@@ -19,8 +19,8 @@ The directory structure is organized according to the sections of the manuscript
 
 | Section | Code Folder | Data Folder | Figure/Table |
 |---------|-------------|-------------|--------------|
-| 2.2 Generation Algorithm | `code/section2.2 generate porous structures/` | `data/section2_2_algorithm_output/` | N/A |
-| 3.1.1 Dependence on parameter l | `code/section3.1_1_$l$/` | `data/section3_1_1_l/` | Figure 2 |
+| 2.2 Generation Algorithm | `code/section2_2 generate porous structures/` | `data/section2_2_algorithm_output/` | N/A |
+| 3.1.1 Dependence on parameter l | `code/section3_1_1_l/` | `data/section3_1_1_l/` | Figure 2 |
 | 3.1.2 Dependence on parameter dL | `code/section3_1_2_dL/` | `data/section3_1_2_dL/` | Figure 3 |
 | 3.1.3 Dependence on parameter ϕ_Particle | `code/section3_1_3_phi/` | `data/section3_1_3_phi/` | Figure 4 |
 | 3.2 Comparison with PoreSpy | `code/section3_2_comparison/` | `data/section3_2_comparison/` | Figure 5 |
