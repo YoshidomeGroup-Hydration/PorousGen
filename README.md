@@ -75,7 +75,7 @@ A 3D porous structure with 100^3 voxels of size 20 nm is generated.
 TIFF image files of the generated structure will be saved automatically in the result directory.
 
 
-### Reproducing Figures and Tables
+### Using analysis scripts corresponding to each section of the manuscript
 
 Reproduce Figure 2
 ```bash
