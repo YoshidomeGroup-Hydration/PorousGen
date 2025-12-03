@@ -1,9 +1,8 @@
 # [PorousGen] GitHub Repository
 “PorousGen” allows for the efficient generation of large-scale porous structures through parallel computation. 
 It can also accurately create structures according to a defined target porosity.
+It contains both the **core algorithm** proposed in Section 2.1 and the **reproducibility scripts** corresponding to each figure and table in Section 3.
 
-This repository contains all data and code used in the manuscript, as well as the implementation of the proposed algorithm.  
-The folder structure is organized according to the sections of the manuscript.
 
 ## Folder Structure
 
@@ -34,6 +33,21 @@ The folder structure is organized according to the sections of the manuscript.
 
 # Requirement
 Python 3.12.3~, numpy scipy tifffile scikit-image  
+
+## Requirements
+
+- Python **3.12.3** or later
+- numpy  
+- scipy  
+- scikit-image  
+- tifffile  
+- matplotlib (recommended)  
+- porespy (optional, used only in Section 3.2)
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
 
 # Licence
 “PorousGen” is available under the MIT License.
