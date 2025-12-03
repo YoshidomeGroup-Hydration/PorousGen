@@ -4,8 +4,7 @@ It can also accurately create structures according to a defined target porosity.
 It contains both the **core algorithm** proposed in Section 2.1 and the **reproducibility scripts** corresponding to each figure and table in Section 3.
 
 ## Requirements
-
-- Python **3.12.3** or later
+Python **3.12.3** or later
 - numpy  
 - scipy  
 - scikit-image  
