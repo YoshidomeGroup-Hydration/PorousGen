@@ -87,7 +87,7 @@ python param_l_analysis.py
 A 3D porous structure with 100^3 voxels of size 20 nm is generated.
 TIFF images of the structure will be output.
 
-
+---
 
 # Licence
 “PorousGen” is available under the MIT License.
