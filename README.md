@@ -84,7 +84,7 @@ bash run_codes.sh
 ```
 Reproduce all results
 ```bash
-cd algorithm_exsample/
+cd repro/
 bash run_codes_all.sh
 ```
 All generated outputs (TIFF, PNG, TXT) will be stored automatically in the results directory.
