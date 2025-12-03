@@ -3,9 +3,9 @@
 It can also accurately create structures according to a defined target porosity.
 
 This repository contains all data and code used in the manuscript, as well as the implementation of the proposed algorithm.  
-The directory structure is organized according to the sections of the manuscript.
+The folder structure is organized according to the sections of the manuscript.
 
-## Directory Structure
+## Folder Structure
 
 - `LICENSE` : MIT License
 - `algorithm/` : Implementation of the algorithm proposed in this manuscript
