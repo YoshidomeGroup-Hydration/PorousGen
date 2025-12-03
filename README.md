@@ -48,9 +48,15 @@ pip install -r requirements.txt
 
 
 ## Usage
-### Using PorousGen
 1. Navigate to the corresponding code folder for the figure or table you want to reproduce.
 2. Run the Python script.
+
+### Using proposed algorithm in Section 2.1   
+```bash
+cd algorithm
+python main_algorithm.py
+
+
 ## Test Parameters
 
 The following parameters are used for test execution:
@@ -67,10 +73,7 @@ delta_VN = 50       # l = VL_ori * delta_VN [\mu m]
 N = 5               # The box is divided into N^3 subdomains for parallel computation.
 eta_err = 1         # \eta_Err [%]
 
-Example:
-```bash
-cd algorithm
-python main_algorithm.py
+
 
 
 
@@ -87,7 +90,7 @@ python param_l_analysis.py
 A 3D porous structure with 100^3 voxels of size 20 nm is generated.
 TIFF images of the structure will be output.
 
----
+
 
 # Licence
 “PorousGen” is available under the MIT License.
