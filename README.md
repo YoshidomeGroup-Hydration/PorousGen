@@ -42,6 +42,7 @@ pip install -r requirements.txt
 | 3.1.3 Dependence on parameter ϕ_Particle | `repro/section3_1_3/` | `results/section3_1_3/` | Figure 4 |
 | 3.2 Comparison with PoreSpy | `repro/section3_2/` | `results/section3_2/` | Figure 5 |
 | 3.3 Comparison with experimental data | `repro/section3_3/` | `results/section3_3/` | Table 2 |
+| SI-1 Effect of binning on the power spectrum | `repro/SI_1/` | `results/SI_1/` | Figure S1 |
 
 ---
 
