@@ -26,7 +26,7 @@ pip install -r requirements.txt
     - `code_PorousGen.py` : PorousGen algorithm
     - `helpers.py` : Helper functions and utilities
   - `result/`  : Output
-- `repro/code_folder/` : Analysis scripts corresponding to each section of the manuscript
+- `repro/each_section/` : Analysis scripts corresponding to each section of the manuscript
   - `run_codes.sh` :  Master script to execute the codes listed below
     - `code_PorousGen.py` : PorousGen algorithm
     - `code_PoreSpy.py` : PoreSpy-based generation and comparison
@@ -35,15 +35,15 @@ pip install -r requirements.txt
 
 ### Section-to-Folder Mapping
 
-| Section | code_folder | results | Figure/Table |
-|---------|-------------|-------------|--------------|
-| 2.1 Algorithm for generating a porous structure | `demo/` | `result/` | N/A |
-| 3.1.1 Dependence on parameter l | `repro/section3_1_1/` | `results/section3_1_1/` | Figure 2 |
-| 3.1.2 Dependence on parameter dL | `repro/section3_1_2/` | `results/section3_1_2/` | Figure 3 |
-| 3.1.3 Dependence on parameter ϕ_Particle | `repro/section3_1_3/` | `results/section3_1_3/` | Figure 4 |
-| 3.2 Comparison with PoreSpy | `repro/section3_2/` | `results/section3_2/` | Figure 5 |
-| 3.3 Comparison with experimental data | `repro/section3_3/` | `results/section3_3/` | Table 2 |
-| SI-1 Effect of binning on the power spectrum | `repro/SI_1/` | `results/SI_1/` | Figure S1 |
+| Section | code_folder | results | 
+|---------|-------------|-------------|
+| 2.1 Algorithm for generating a porous structure | `demo/` | test data |
+| 3.1.1 Dependence on parameter l | `repro/section3_1_1/` | Figure 2 | 
+| 3.1.2 Dependence on parameter dL | `repro/section3_1_2/` | Figure 3 | 
+| 3.1.3 Dependence on parameter ϕ_Particle | `repro/section3_1_3/` | Figure 4 | 
+| 3.2 Comparison with PoreSpy | `repro/section3_2/` | Figure 5 | 
+| 3.3 Comparison with experimental data | `repro/section3_3/` | Table 2 | 
+| SI-1 Effect of binning on the power spectrum | `repro/SI_1/` | Figure S1 | 
 
 ---
 
