@@ -53,17 +53,19 @@ pip install -r requirements.txt
 The following parameters are used for test execution:
 
 ```text
-VN_ori = 200        # N_Box
-VL_ori = 10         # L_Box [nm]
-ran = 1             # seed
-mean = 140          # D_Mean [nm]
-stan = 1            # D_SD [nm]
-eta_target = 40     # \eta_Box [%]
-delta_VN = 50       # l = VL_ori * delta_VN [\mu m]
-N = 5               # The box is divided into N^3 subdomains for parallel computation.
-eta_err = 1         # \eta_Err [%]
-phi_particle = 50   # \phi_Particle [%]
-dL2 = mean + 2*stan # 2dL [nm]
+#!/bin/bash
+# --- Parameter Settings ---
+eta_Box=40        # \eta_Box [%]
+L_Voxel=10         # L_Voxel [nm]
+N_Voxel=200        # N_Voxel
+mean=140          # D_Mean [nm]
+stan=1            # D_SD [nm]
+N=5               # The box is divided into N^3 subdomains for parallel computation.
+delta_VN=50       # l = L_Voxel * delta_VN [nm]
+dL2=$(( mean + 2*stan )) # 2dL [nm]
+phi_particle=50   # \phi_Particle [%]
+eta_err=1         # \eta_Err [%]
+ran=1             # seed
 ```
 To run the algorithm:
 ```bash
