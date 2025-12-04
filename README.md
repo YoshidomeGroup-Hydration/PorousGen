@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 - `LICENSE` : MIT License
 - `requirements.txt`
-- `demo/` : Proposed algorithm in Section 2.1
+- `demo/` : Core algorithm in Section 2.1
   - `code_PorousGen.py` : PorousGen algorithm
   - `result/`  : Output
 - `repro/code_folder/` : Analysis scripts corresponding to each section of the manuscript
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 
 ## Usage
-### Using proposed algorithm in Section 2.1   
+### Using Core algorithm in Section 2.1   
 
 The following parameters are used for test execution:
 
