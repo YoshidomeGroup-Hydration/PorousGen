@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 
 ## Usage
-### Using Core algorithm in Section 2.1   
+### Using core algorithm in Section 2.1   
 
 The following parameters are used for test execution:
 
