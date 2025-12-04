@@ -9,7 +9,7 @@ Python **3.12.3** or later
 - scipy  
 - scikit-image  
 - tifffile  
-- matplotlib (recommended)  
+- matplotlib
 - porespy (optional, used only in Section 3.2)
 
 Install dependencies:
