@@ -9,7 +9,7 @@ Python **3.12.3** or later
 - scipy  
 - scikit-image   
 - matplotlib
-- porespy (optional, used only in Section 3.2)
+- porespy (optional, used only in Section 3)
 
 Install dependencies:
 
