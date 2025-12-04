@@ -7,8 +7,7 @@ The repository contains the implementation of the **core algorithm** (Section 2.
 Python **3.12.3** or later
 - numpy  
 - scipy  
-- scikit-image  
-- tifffile  
+- scikit-image   
 - matplotlib
 - porespy (optional, used only in Section 3.2)
 
