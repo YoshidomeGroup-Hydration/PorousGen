@@ -25,7 +25,7 @@ pip install -r requirements.txt
   - `run_codes.sh` :  Master script to execute the codes listed below
     - `code_PorousGen.py` : PorousGen algorithm
     - `helpers.py` : Helper functions and utilities
-  - `result/`  : Output
+  - `results/`  : Output
 - `repro/each_section/` : Analysis scripts corresponding to each section of the manuscript
   - `run_codes.sh` :  Master script to execute the codes listed below
     - `code_PorousGen.py` : PorousGen algorithm
