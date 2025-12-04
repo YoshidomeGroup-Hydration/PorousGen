@@ -71,7 +71,7 @@ ran=1             # seed
 To run the algorithm:
 ```bash
 cd demo/
-python3 code_PorousGen.py
+bash run_codes.sh
 ```
 
 A 3D porous structure with 100^3 voxels of size 20 nm is generated.
