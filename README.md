@@ -56,8 +56,8 @@ The following parameters are used for test execution:
 #!/bin/bash
 # --- Parameter Settings ---
 eta_Box=40        # \eta_Box [%]
-L_Voxel=10         # L_Voxel [nm]
-N_Voxel=200        # N_Voxel
+L_Voxel=10        # L_Voxel [nm]
+N_Voxel=200       # N_Voxel
 mean=140          # D_Mean [nm]
 stan=1            # D_SD [nm]
 N=5               # The box is divided into N^3 subdomains for parallel computation.
