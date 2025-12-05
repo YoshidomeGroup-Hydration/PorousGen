@@ -1,7 +1,7 @@
 # [PorousGen] GitHub Repository
 “PorousGen” allows for the efficient generation of large-scale porous structures through parallel computation. It can also accurately create structures according to a defined target porosity.
 
-The repository contains the implementation of the **core algorithm** (Section 2.1), together with **reproducibility scripts** for all results in Section 3 and Supporting Information SI-1. Each script is organized by section and produces the corresponding figures, tables, and output data.
+The repository contains the implementation of the **core algorithm**, together with **reproducibility scripts** for all results in Section 3 and Supporting Information SI-1. Each script is organized by section and produces the corresponding figures, tables, and output data.
 
 ## Requirements
 Python **3.12.3** or later
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 - `LICENSE` : MIT License
 - `requirements.txt`
-- `demo/` : Core algorithm in Section 2.1
+- `demo/` : To run PorousGen, please execute the code in this directory.
   - `run_codes.sh` :  Master script to execute the codes listed below
     - `code_PorousGen.py` : PorousGen algorithm
     - `helpers.py` : Helper functions and utilities
@@ -39,7 +39,6 @@ pip install -r requirements.txt
 
 | Section | code_folder | results | 
 |---------|-------------|-------------|
-| 2.1 Algorithm for generating a porous structure | `demo/` | test data |
 | 3.1.1 Dependence on parameter l | `repro/section3_1_1/` | Figure 2 | 
 | 3.1.2 Dependence on parameter dL | `repro/section3_1_2/` | Figure 3 | 
 | 3.1.3 Dependence on parameter ϕ_Particle | `repro/section3_1_3/` | Figure 4 | 
@@ -51,7 +50,7 @@ pip install -r requirements.txt
 
 
 ## Usage
-### Using core algorithm in Section 2.1   
+### Using core algorithm    
 
 The following parameters are used for test execution:
 
@@ -92,7 +91,7 @@ Reproduce all results
 cd repro/
 bash run_codes_all.sh
 ```
-All generated outputs (TIFF, PNG, TXT) will be stored automatically in the results directory.
+All generated outputs (PNG, TXT) will be stored automatically in the results directory.
 
 
 
