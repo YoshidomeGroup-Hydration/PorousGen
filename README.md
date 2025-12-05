@@ -10,6 +10,7 @@ Python **3.12.3** or later
 - scikit-image   
 - matplotlib
 - pandas
+- psutil
 - porespy (optional, used only in Section 3)
 
 Install dependencies:
