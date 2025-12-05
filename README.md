@@ -76,7 +76,7 @@ bash run_codes.sh
 ```
 
 A 3D porous structure with 100^3 voxels of size 20 nm is generated.
-TIFF image files of the generated structure will be saved automatically in the result directory.
+PNG image files of the generated structure will be saved automatically in the result directory.
 
 
 ### Using analysis scripts corresponding to each section of the manuscript
@@ -91,7 +91,7 @@ Reproduce all results
 cd repro/
 bash run_codes_all.sh
 ```
-All generated outputs (PNG, TXT) will be stored automatically in the results directory.
+All generated outputs will be stored automatically in the results directory.
 
 
 
