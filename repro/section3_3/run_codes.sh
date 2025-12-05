@@ -4,8 +4,8 @@
 eta_Box=34        # \eta_Box [%]
 L_Voxel=5         # L_Voxel [nm]
 N_Voxel=1000        # N_Voxel
-mean=40          # D_Mean [nm]
-stan=5            # D_SD [nm]
+mean=45          # D_Mean [nm]
+stan=1            # D_SD [nm]
 N=6               # The box is divided into N^3 subdomains for parallel computation.
 delta_VN=50       # l = L_Voxel * delta_VN [nm]
 dL2=$(( mean + 2*stan )) # 2dL [nm]
