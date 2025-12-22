@@ -38,8 +38,8 @@ os.makedirs(output_directory, exist_ok=True)
 print(output_directory)
 
 # --- Other Settings ---
-VN = N_Voxel / 2        
-VL = L_Voxel * 2   
+VN = N_Voxel         
+VL = L_Voxel    
 pixel_size_nm = L_Voxel  
 shape_ori = [N_Voxel, N_Voxel, N_Voxel]  
 porosity = eta_Box/100  
