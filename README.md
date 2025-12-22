@@ -76,9 +76,10 @@ cd demo/
 bash run_codes.sh
 ```
 
-A 3D porous structure with 100^3 voxels of size 20 nm is generated.
-PNG image files of the generated structure will be saved automatically in the result directory.
-
+The software provides two types of outputs:
+1.Numerical data: voxelized three-dimensional binary data, where solid regions are represented by 1 and pore regions by 0. This representation can be directly used as input for pore-scale simulations such as diffusion coefficients, pore size distributions, and tortuosity.
+2.Visualization data: PNG image files visualizing a three-dimensional porous structure consisting of 
+1003 voxels with a voxel size of 20 nm, which are automatically saved in the results directory.
 
 ### Using analysis scripts corresponding to each section of the manuscript
 
