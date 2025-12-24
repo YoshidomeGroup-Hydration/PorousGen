@@ -317,8 +317,8 @@ mask = calc_mask_from_particles(positions, radii, N_Voxel_add)
 cut_mask = get_central_cut_mask(mask, N_Voxel_add, N_Voxel)
 final_mask = binarize_and_binning(cut_mask)
 actual_phi = calc_phi(final_mask)
-final_mask = (1 - (final_mask)).astype(np.uint8)
-np.save("final_mask.npy", final_mask)
+final_mask_dummy = (1 - (final_mask)).astype(np.uint8)
+np.save("final_mask.npy", final_mask_dummy)
 
 print(f"\nFinal volume fraction after adjustment: {actual_phi:.4f}")
 
