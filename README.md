@@ -77,7 +77,7 @@ bash run_codes.sh
 ```
 
 The software provides two types of outputs:
-- `1.Numerical data`: voxelized three-dimensional binary data, where solid regions are represented by 1 and pore regions by 0. This representation can be directly used as input for pore-scale simulations such as diffusion coefficients, pore size distributions, and tortuosity.
+- `1.Numerical data`: voxelized three-dimensional binary data, where solid regions are represented by 0 and pore regions by 1. This representation can be directly used as input for pore-scale simulations such as diffusion coefficients, pore size distributions, and tortuosity.
 - `2.Visualization data`: PNG image files visualizing a three-dimensional porous structure consisting of 
 100 × 100 × 100 voxels with a voxel size of 20 nm, which are automatically saved in the results directory.
 
