@@ -109,7 +109,6 @@ S. Arai, T. Yoshidome,
 PorousGen: An efficient algorithm for generating porous structures with accurate porosity and uniform density distributin,
 Comput. Mater. Sci., 264 (2026), 114478, 
 https://doi.org/10.1016/j.commatsci.2025.114478
-
 ```
 # Contact
 If you have any questions, please contact Shota Arai at<br>
